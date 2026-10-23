@@ -1,0 +1,16 @@
+# build output
+build/
+*.exe
+__pycache__/
+.vscode/
+
+# local benchmark runs
+results/local/
+
+# local datasets: too large for GitHub (keep them here only for local runs)
+data/points/
+data/synthetic/
+data/**/*.csv
+
+# reference paper (copyrighted, local copy only)
+docs/paper/
